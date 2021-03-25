@@ -1,0 +1,10 @@
+/* Positioning section about my work experience in the certain location on the page to balance the size of the content*/
+.about{
+    display: block;
+    width: 45%;
+    height: 25%;
+    line-height: 1.3;
+    position: fixed;
+    top: 33%;
+    left: 30%; 
+}

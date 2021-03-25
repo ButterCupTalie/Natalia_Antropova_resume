@@ -1,0 +1,117 @@
+/* Importing required font from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+/*Inserting picture for the background of the wedsite, bluring the picture and fixing the position of it*/
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('pic2.jpg');
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+/*Sizing the boxes do not have padding and margin*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Specifying the line height for the text on the page*/
+body {
+    font-family: 'Kalam', cursive;
+    line-height: 1.6;
+}
+
+/*Removing dots from the line items*/
+a {
+    text-decoration: none;
+}
+
+/*Specifying the weight of the font and line height*/
+h1, 
+h2 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+/*Setting pargin of paragraphs*/
+p {
+    margin: 10px 0;
+}
+
+/*Styling and positioning of the picture of me*/
+img {
+    border-radius: 50%;
+    position: fixed;
+    top: 10%;
+    left: 7%;
+    border: 5px solid rgb(212, 199, 209);
+}
+
+/*Positioning of the navigation bar*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Styling and positioning information in the navigation bar*/
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 10%;
+    right: 15%;
+}
+li{
+    width: 160px;
+    height: 40 px;
+    margin: 0px 4px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    float: left;
+    
+}
+a{
+    display: block;
+    width: 120 px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+
+/*Setting position of the logo*/
+.logo{
+    position: fixed;
+    top: 50%;
+    left: 7%;
+}
+
+/*Adding hover lines to the nav bar to add responsiveness*/
+.navbar a:hover{
+    border-bottom:2px rgb(101, 99, 102)solid;
+}
+
+/*Positioning information of my contact details on the page*/
+.grid {
+    position: fixed;
+    top: 60%;
+    left: 7%;
+}
+
+/*Positioning and styling of the about container and including the line height*/
+.about{
+    display: block;
+    width: 45%;
+    height: 25%;
+    line-height: 1.9;
+    position: fixed;
+    top: 40%;
+    left: 30%;  
+}
